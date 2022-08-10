@@ -80,4 +80,5 @@ body {
 .arrastar {
     text-align: center;
     filter:invert(100%);
+    font-weight: bold;
 }

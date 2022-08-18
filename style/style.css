@@ -9,7 +9,8 @@ body {
 
 .index {
     max-height: 100vh;
-    background-color: #061219;
+    min-height: 100vh;
+    background: linear-gradient(220deg, black, rgb(39, 39, 39));
 }
 
 .outwrapper {
@@ -43,7 +44,7 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 .dynamic-txt li{
     list-style: none;
@@ -71,7 +72,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #061219;
+    background: rgb(11,11,11);
     border-left: 2px solid #16f17d;
     animation: typing 2s steps(15) infinite;
 }
@@ -109,40 +110,12 @@ body {
     }
 }
 
-#top1 {
-    background-image: linear-gradient(to top, #3694ca, #41b9ff );
-    min-height: 100vh;
-    max-height: 100vh;
-    color: white;
-}
-
-#top2 {
-    background-image: linear-gradient(to top, #205e81, #3694ca );
-    min-height: 100vh;
-    max-height: 100vh;
-    color: white;
-}
-
-#top3 {
-    background-image: linear-gradient(to top, #113144, #205e81 );
-    min-height: 100vh;
-    max-height: 100vh;
-    color: white;
-}
-
-#top4 {
-    background-image: linear-gradient(to top, #0b212e, #113144 );
-    min-height: 100vh;
-    max-height: 100vh;
-    color: white;
-}
-
 .index-button {
     text-align: center;
 }
 
 .button-23 {
-    background-color: #bdbdbd;
+    background-color: rgb(159, 253, 253);
     border: 1px solid #222222;
     border-radius: 8px;
     box-sizing: border-box;
@@ -164,6 +137,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
     width: auto;
+    transition: 3s;
   }
 
   .button-23:hover {
@@ -178,12 +152,18 @@ body {
   }
   
   .teste {
+      margin-top: 4%;
     text-align: center;
     color: white;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'DynaPuff', cursive;
+    font-family: 'Mukta', sans-serif;
     padding-left: 15%;
     padding-right: 15%;
-    margin-top: 10vh;
+
+  }
+
+  .nomes{
+      font-size: 15px;
+      text-align: right;
   }

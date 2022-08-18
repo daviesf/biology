@@ -110,14 +110,28 @@ body {
 }
 
 #top1 {
-    background-image: linear-gradient(to bottom, #061219, #0b212e );
+    background-image: linear-gradient(to top, #3694ca, #41b9ff );
     min-height: 100vh;
     max-height: 100vh;
     color: white;
 }
 
 #top2 {
-    background-image: linear-gradient(to bottom, #0b212e, #113144 );
+    background-image: linear-gradient(to top, #205e81, #3694ca );
+    min-height: 100vh;
+    max-height: 100vh;
+    color: white;
+}
+
+#top3 {
+    background-image: linear-gradient(to top, #113144, #205e81 );
+    min-height: 100vh;
+    max-height: 100vh;
+    color: white;
+}
+
+#top4 {
+    background-image: linear-gradient(to top, #0b212e, #113144 );
     min-height: 100vh;
     max-height: 100vh;
     color: white;

@@ -22,7 +22,7 @@ body {
 
 .wrapper {
     display: inline-flex;
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 200px;
 }
 
@@ -166,4 +166,8 @@ body {
   .nomes{
       font-size: 15px;
       text-align: right;
+  }
+
+  html {
+    scroll-behavior: smooth;;
   }

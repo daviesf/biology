@@ -1,33 +1,33 @@
 #top1 {
-    background-image: linear-gradient(to top, #3694ca, #41b9ff );
+    background-image: linear-gradient(to top, #001b2b, #002a42 );
     min-height: 100vh;
     max-height: 100vh;
     color: white;
 }
 
 #top2 {
-    background-image: linear-gradient(to top, #205e81, #3694ca );
+    background-image: linear-gradient(to top, #002a42, #003b5e );
     min-height: 100vh;
     max-height: 100vh;
     color: white;
 }
 
 #top3 {
-    background-image: linear-gradient(to top, #113144, #205e81 );
+    background-image: linear-gradient(to top, #003b5e, #004e7a );
     min-height: 100vh;
     max-height: 100vh;
     color: white;
 }
 
 #top4 {
-    background-image: linear-gradient(to top, #0b212e, #113144 );
+    background-image: linear-gradient(to top, #004e7a, #0b6ea7 );
     min-height: 100vh;
     max-height: 100vh;
     color: white;
 }
 
 #top5 {
-    background-image: linear-gradient(to top, #0b212e, #113144 );
+    background-image: linear-gradient(to top, #0b6ea7, #113144 );
     min-height: 100vh;
     max-height: 100vh;
     color: white;
@@ -113,7 +113,7 @@
 
 .icone-scroll {
     position: absolute;
-    top: 3em;
+    top: 1em;
     width: 50px;
     height: 50px;
     background-color: #1a1a1a;
@@ -121,6 +121,20 @@
     left: 50%;
     margin-left: -25px;
     cursor: pointer;
+    transform: translateY(0px);
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
   }
 
   .scroll {
@@ -134,5 +148,9 @@
   .scroll-next {
     transform: rotate(45deg);
     margin: 17px 0 0 16.5px;
+  }
+
+  body {
+    overflow: hidden;
   }
 

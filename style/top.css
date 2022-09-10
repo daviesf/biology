@@ -114,9 +114,28 @@
 
 .secao {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    text-align: center;
+}
+
+.secaointro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 90px;
+}
+
+.imagem {
+    padding: 20px;
+    width: 40%;
+}
+
+.textotop { 
+    padding: 20px;
+    width: 60%;
+    font-size: 16px;
 }
 
 .icone-scroll {

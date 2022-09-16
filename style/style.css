@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .containercard {
@@ -13,25 +15,27 @@
 }
 
 .card {
-    height: 500px;
-    margin: 10px;
+    height: 400px;
+    margin: 30px;
     box-shadow: 5px 5px 20px black;
 }
 
 .img {
-    height: 500px;
+    height: 400px;
     width: 350px;
     border-radius: 3px;
+    transition: .5s;
 }
 
 .intro {
-    height: 200px;
+    height: 120px;
     width: 350px;
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
     background: rgb(27, 27, 27, .5);
     color: white;
+    transition: .5s;
 }
 
 .titulo-card {
@@ -39,14 +43,16 @@
     font-size: 40px;
 }
 
-.texto-card {
-    font: 20px;
-    margin: 20px;
+.card:hover{
+    cursor: pointer;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.card:hover .intro{
+    background: black;
+}
+
+.card:hover .img{
+    transform: scale(1.1) rotateY(3deg);
 }
 
 #background-video {
@@ -74,11 +80,11 @@
     height: 10px;
     border-color: black;
     background-color: black;
-    margin-top: 34vh;
+    margin-top: 32.5vh;
 }
 
 .aga3 {
-    margin-top: 30vh; 
+    margin-top: 25vh; 
 }
 
 .aga2 { 
@@ -90,8 +96,11 @@
 }
 
 .content{  
-    padding:5% 10%;
+    padding-left: 5%; 
+    padding-top: 4%; 
+    padding-right: 5%;
     text-align: justify;
+    font-size: 20px;
   }
 
 

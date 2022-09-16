@@ -4,16 +4,7 @@
     font-family: sans-serif;
 }
 
-header {
-    background-color: darkgray;
-    background-image: url(https://cdn.wallpapersafari.com/78/90/WkopOY.jpg);
-    /* background-position: 50px; */
-    height: 100px;
-
-}
-
-
-.container{
+.containercard {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,19 +12,19 @@ header {
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     height: 500px;
     margin: 10px;
     box-shadow: 5px 5px 20px black;
 }
 
-img {
+.img {
     height: 500px;
     width: 350px;
     border-radius: 3px;
 }
 
-.intro{
+.intro {
     height: 200px;
     width: 350px;
     padding: 6px;
@@ -43,26 +34,64 @@ img {
     color: white;
 }
 
-h1{
+.titulo-card {
     margin: 10px;
     font-size: 40px;
 }
 
-p{
+.texto-card {
     font: 20px;
     margin: 20px;
 }
 
-body {
-    font-family: 'Lato', sans-serif;
-}
-.aps{
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.background{
+#background-video {
+    height: 80vh;
+    width: 100vw;
+    object-fit: fill;
     position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(5px);
+    filter: brightness(50%);
 }
+
+.aga3, .aga2, .meta {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+}
+
+#linha-div {
+    height: 10px;
+    border-color: black;
+    background-color: black;
+    margin-top: 34vh;
+}
+
+.aga3 {
+    margin-top: 30vh; 
+}
+
+.aga2 { 
+    font-size: 3rem; 
+}
+
+.meta{
+  font-style: italic;
+}
+
+.content{  
+    padding:5% 10%;
+    text-align: justify;
+  }
+
+

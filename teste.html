@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#background-video {
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(5px);
+    filter: brightness(50%);
+}
+
+h3, h2, .meta {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+}
+
+#linha-div {
+    height: 10px;
+    border-color: black;
+    background-color: black;
+    margin-top: 34vh;
+}
+
+h3 {
+    margin-top: 30vh; 
+}
+
+h2 { 
+    font-size: 3rem; 
+}
+
+.meta{
+  font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted>
+        <source src="media/intro.mp4" type="video/mp4">
+      </video>
+      
+      <h3>COLÉGIO TÉCNICO DE LIMEIRA EM:</h3>
+      <h2>Animais Aleatórios em Biologia</h2>
+
+      <div class="meta">
+        Por Davie, Neto, Júnior, Samuel e Natália, em Set/2022
+      </div>
+      <hr id="linha-div">
+</body>
+</html>

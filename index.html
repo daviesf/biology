@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
-
-
+    
 </head>
 <body>
+    <header>
     <video id="background-video" autoplay loop muted>
         <source src="media/intro.mp4" type="video/mp4">
       </video>
@@ -24,104 +24,147 @@
         Por Davie, Neto, Júnior, Samuel e Natália, em Set/2022
       </div>
       <hr id="linha-div">
+      
 
       <section class="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl turpis, porttitor et finibus id, viverra a metus. Praesent non ante sed orci posuere varius quis sit amet dui. Cras molestie magna orci, id gravida dolor molestie in. Duis sollicitudin turpis quis tortor egestas, ut ultrices nisl elementum. Vestibulum sed ipsum eget nulla laoreet cursus in ac sem. Integer a suscipit justo, quis aliquam sapien. Maecenas et tellus nibh. Vivamus tincidunt eros id commodo pellentesque.</p>
         </section>
         
-    <main>
-        <div class="containercard">
-            <div class="card">
-                <img src="media/baleia.jpg" alt="baleia" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Baleia-Azul</h1>
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="media/lagosta.webp" alt="lagosta" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Lagosta Boxeadora</h1>
-                </div>
-            </div>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</header>
+<main>
+<div class="submain">
+<div class="container">
+	<div class="card">
+		<figure class="card__thumb">
+			<img src="media/baleia.jpg"  class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Baleia-Azul:<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, dolore aliquam. Minus, nisi. Quos, impedit!</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
 
-             <div class="card">
-                <img src="media/estrela.webp" alt="estrela do mar" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Estrela do mar</h1>
-                </div>
-            </div>
+	<div class="card">
+		<figure class="card__thumb">
+			<img src="media/lagosta.webp" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Lagosta Boxeadora<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum repudiandae cumque dolores, voluptatibus ratione ea!</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
 
-            <div class="card">
-                <img src="media/crocodilo.jpg" alt="Crocodilo" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Crocodilo Americano</h1>
-                </div>
-            </div>
+	<div class="card">
+		<figure class="card__thumb">
+			<img src="media/estrela.webp" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Estrela do Mar<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aperiam minima ipsum doloremque ipsa alias aut autem voluptates molestiae ad ut, nobis ratione cumque eos animi praesentium nisi consequuntur repellendus.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
 
-            <div class="card">
-                <img src="media/pirarucu.webp" alt="Pirarucu" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Pirarucu</h1>
-                </div>
-            </div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/crocodilo.jpg" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Crocodilo<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, mollitia itaque aperiam neque accusamus facilis nemo ipsam quam modi fugit quos ab culpa ducimus nulla impedit laudantium dolores reprehenderit voluptates.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
 
-            <div class="card">
-                <img src="media/minhoca.jpeg" alt="minhoca" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Minhoca</h1>
-                </div>
-            </div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/pirarucu.webp" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Pirarucu<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa quaerat animi repellendus dolorem, pariatur nemo.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
 
-            <div class="card">
-                <img src="media/caracol.jpg" alt="Caracol" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Caracol Gigante Africano</h1>
-                </div>
-            </div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/minhoca.jpeg" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Minhoca<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium error ducimus provident, quidem facere!</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
 
-            <div class="card">
-                <img src="media/pirarucu.webp" alt="Pirarucu" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Pirarucu</h1>
-                </div>
-            </div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/caracol.jpg" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Caracol Gigante Africano<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis aliquid dolorum impedit totam ullam.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/carrapato-estrela.jpg" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Carrapato-Estrela<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis aliquid dolorum impedit totam ullam.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/planaria.jpg" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Planária<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis aliquid dolorum impedit totam ullam.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/aranha.webp" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Viúva Negra<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis aliquid dolorum impedit totam ullam.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/borboleta.jpg" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Borboleta Monarca<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis aliquid dolorum impedit totam ullam.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
+    <div class="card">
+		<figure class="card__thumb">
+			<img src="media/ararinha.webp" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Ararinha Azul<br><i>Espécie</i></h2>
+				<p class="card__snippet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis aliquid dolorum impedit totam ullam.</p>
+				<a href="" class="card__button">Read more</a>
+			</figcaption>
+		</figure>
+	</div>
+</div>
+</div>
+</main>
 
-            <div class="card">
-                <img src="media/carrapato-estrela.jpg" alt="carrapato-estrela" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Carrapato Estrela</h1>
-                </div>
-            </div>
 
-            <div class="card">
-                <img src="media/planaria.jpg" alt="Planaria" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Planaria</h1>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="media/aranha.webp" alt="Aranha" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Aranha Viúva Negra</h1>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="media/borboleta.jpg" alt="Borboleta-monarca" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Borboleta Monarca</h1>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="media/ararinha.webp" alt="Ararinha" class="img">
-                <div class="intro">
-                    <h1 class="titulo-card">Ararinha Azul</h1>
-                </div>
-            </div>
-        </div>
-    </main>
 </body>
 </html>

@@ -75,11 +75,10 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 0 80px;
+    margin: 20px;
   }
   
   .card {
-      top: 10%;
     width: 300px;
     margin: 10px;
     background-color: white;

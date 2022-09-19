@@ -4,12 +4,3 @@
 
 Link de visualização: https://daviesf.github.io/biology/
 
-<br>
-
-No trabalho:
-- Aguardando Neto selecionar espécie de minhoca e viúva negra.
-- Aguardando Júnior (e eu, caso queira ajuda) fazer ararinha azul, lombriga e carrapato-estrela.
-
-Na programação:
-- Ajustar layout dos animais.
-- Consertar itens mínimos.

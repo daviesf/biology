@@ -1,20 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=My+Soul&family=Oswald&display=swap');
-
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    text-shadow: 3px 3px 2px black;
-}
-
 body {
-    font-family: 'Oswald', sans-serif;
-    color:  #FFFFFF;
+    font-family: 'Cabin', sans-serif;
     font-size: 20px;
-    background: linear-gradient(0deg, #1a1a1a 0%, #2e2e2e 50%, #4b4b4b 100%);
     margin: 0px;
     padding: 0px;
 }
 
-p {
+#bg-video {
+    height: 80vh;
+    width: 100vw;
+    object-fit: fill;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(5px);
+    filter: brightness(80%);
+}
+.aga5 {
+    margin-top: 25vh; 
+    font-size: 30px;
+}
+
+.aga4 { 
+    font-size: 3em; 
+}
+
+.texto {
     padding: 5px 10px;
     text-align: justify;
 }
@@ -23,7 +36,7 @@ p {
     text-align: center;
 }
 
-.container { /* * Flex Box */
+.containeran { /* * Flex Box */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -31,14 +44,51 @@ p {
 }
 
 .item { /* * Flex Box */
-    padding: 10px;
-    margin: 5px 30px 5px 30px;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
 } 
 
 .index1 { /* * Flex Box */
-    width: 70%;
+    width: 60%;
+    margin-left: 2%;
 }
 
 .index2 { /* * Flex Box */
-    width: 30%;
+    width: 40%;
+    margin-right: 2%;
+}
+
+#linha-baleia {
+    height: 10px;
+    border-color: black;
+    background-color: black;
+    margin-top: 28vh;
+}
+
+.pokemons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .containeran {
+        display: block;
+    }
+
+    .index1 {
+        width: 90%;
+        text-align: justify;
+    }
+    
+    .index2 {
+        width: 100%;
+    }
+
+    .pokemons {
+        display: block;
+    }
+
+    .img {
+        width: 90%;
+    }
 }

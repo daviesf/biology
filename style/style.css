@@ -2,67 +2,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neuedisplay=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Cabin', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+.img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.linkprox {
+  color: rgb(0, 0, 83);
+  transition: 0.5s;
+}
+
+.linkprox:hover {
+  color: black;
+  text-decoration: none;
 }
 
 #background-video {
-    height: 80vh;
-    width: 100vw;
-    object-fit: fill;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    filter: blur(5px);
-    filter: brightness(50%);
+  height: 80vh;
+  width: 100vw;
+  object-fit: fill;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(5px);
+  filter: brightness(50%);
 }
 
-.aga3, .aga2, .meta {
-    color: white;
-    font-family: Trebuchet MS;
-    font-weight: bold;
-    text-align: center;
+.aga3,
+.aga2,
+.meta,
+.aga4,
+.aga5 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
 }
 
 #linha-div {
-    height: 10px;
-    border-color: black;
-    background-color: black;
-    margin-top: 32.5vh;
+  height: 10px;
+  border-color: black;
+  background-color: black;
+  margin-top: 32.5vh;
 }
 
 .aga3 {
-    margin-top: 25vh; 
+  margin-top: 25vh;
 }
 
-.aga2 { 
-    font-size: 3rem; 
+.aga2 {
+  font-size: 3rem;
 }
 
 .meta {
   font-style: italic;
 }
 
-.content {  
-    padding-left: 5%; 
-    padding-top: 4%; 
-    padding-right: 5%;
-    text-align: center;
-    font-size: 20px;
+.content {
+  padding-left: 5%;
+  padding-top: 220px;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 20px;
 }
 
-i {
+.i {
   font-size: 0.8em;
   font-weight: 300;
 }
+
 main {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
 main *,
 main *:before,
 main *:after {
@@ -89,29 +112,36 @@ main *:after {
   background-color: white;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
+
 .card:hover .card__caption {
   top: 40%;
   transform: translateY(-20%);
 }
+
 .card:hover .card__image {
   transform: translateY(-10px);
 }
+
 .card:hover .card__thumb::after {
   top: 0;
 }
+
 .card:hover .card__snippet {
   margin: 20px 0;
 }
+
 .card__thumb {
   position: relative;
   max-height: 400px;
   overflow: hidden;
 }
+
 @media (min-width: 1024px) {
   .card__thumb {
     max-height: 500px;
   }
 }
+
 .card__thumb::after {
   position: absolute;
   top: 0;
@@ -122,15 +152,18 @@ main *:after {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 40%, rgba(255, 255, 255, 0) 100%);
   transition: 0.3s;
 }
+
 @media (min-width: 1024px) {
   .card__thumb::after {
     top: calc(100% - 140px);
   }
 }
+
 .card__image {
   transition: 0.5s ease-in-out;
   filter: brightness(80%);
 }
+
 .card__caption {
   position: absolute;
   top: 50%;
@@ -141,12 +174,14 @@ main *:after {
   text-align: center;
   transition: 0.3s;
 }
+
 @media (min-width: 1024px) {
   .card__caption {
     top: calc(100% - 110px);
     transform: unset;
   }
 }
+
 .card__title {
   display: -webkit-box;
   max-height: 85px;
@@ -158,6 +193,7 @@ main *:after {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
 .card__snippet {
   display: -webkit-box;
   max-height: 150px;
@@ -170,11 +206,13 @@ main *:after {
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
+
 @media (min-width: 1024px) {
   .card__snippet {
     margin: 60px 0;
   }
 }
+
 .card__button {
   margin-top: 15%;
   display: inline-block;
@@ -187,6 +225,7 @@ main *:after {
   text-decoration: none;
   transition: 0.3s;
 }
+
 .card__button:hover {
   color: black;
   background-color: white;
@@ -206,6 +245,7 @@ main *:after {
   font-size: 14px;
   text-align: center;
 }
+
 .disclaimer__link {
   color: #755D87;
   text-decoration: none;
@@ -215,13 +255,20 @@ main *:after {
   height: 2px;
   background-color: lightgray;
   border-color: lightgray;
+  border: 0px;
+  background-color: gray;
 }
 
 footer {
   background-color: rgb(226, 226, 226);
+  background-color: #e2e2e2;
   text-align: center;
   align-items: center;
   color: #525252;
   font-size: 15px;
+  margin-top: 30px;
 }
-  
+
+body {
+  overflow-x: hidden;
+}

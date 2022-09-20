@@ -92,8 +92,12 @@ body {
         width: 90%;
     }
 
+    .aga5 {
+        padding-top: 15vh;
+    }
+
     .content {
-        padding-top: 62vh;
+        padding-top: 47vh;
       }
 
     #bg-video {

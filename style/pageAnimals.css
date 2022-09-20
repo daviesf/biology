@@ -91,4 +91,8 @@ body {
     .img {
         width: 90%;
     }
+
+    .content {
+        padding-top: 350px;
+      }
 }

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    font-family: 'Cabin', sans-serif;
+    line-height: 25px;
+  }
+
+  .ref {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .linkprox {
+    color: black;
+  }
+
+
+  footer {
+    background-color: rgb(226, 226, 226);
+    background-color: #e2e2e2;
+    text-align: center;
+    align-items: center;
+    color: #525252;
+    font-size: 15px;
+    margin-top: 30px;
+  }

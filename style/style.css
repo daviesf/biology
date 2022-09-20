@@ -276,3 +276,21 @@ footer {
 body {
   overflow-x: hidden;
 }
+
+@media (min-width: 1400px) {
+
+  .content {
+      margin-top: 20vh;
+    }
+  }
+
+@media (max-width: 1024px) {
+
+  #background-video {
+    height: 60vh;
+  }
+
+  .aga3 {
+    margin-top: 28vh;
+  }
+}

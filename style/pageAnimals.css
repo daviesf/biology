@@ -93,6 +93,10 @@ body {
     }
 
     .content {
-        padding-top: 85vh;
+        padding-top: 62vh;
+      }
+
+    #bg-video {
+        height: 60vh;
       }
 }

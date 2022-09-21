@@ -31,6 +31,7 @@ ul {
 #background-video {
   height: 80vh;
   width: 100vw;
+  padding: 0px;
   object-fit: fill;
   position: absolute;
   left: 0;
@@ -73,9 +74,9 @@ ul {
 }
 
 .content {
-  padding-left: 5%;
-  padding-top: 220px;
-  padding-right: 5%;
+  margin-left: 5%;
+  padding-top: 25vh;
+  margin-right: 5%;
   text-align: center;
   font-size: 20px;
 }
@@ -277,11 +278,24 @@ body {
   overflow-x: hidden;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 
   .content {
-      margin-top: 20vh;
+      margin-top: 15vh;
     }
+
+  .aga3 {
+    margin-top: 28vh;
+    font-size: 2em;
+  }
+
+  .aga2 {
+    font-size: 4em;
+  }
+
+  .meta {
+    font-size: calc(1em + 5px);
+  }
   }
 
 @media (max-width: 1024px) {

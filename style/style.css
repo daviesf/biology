@@ -30,8 +30,9 @@ ul {
 
 #background-video {
   height: 80vh;
-  width: 100vw;
+  width: 100%;
   padding: 0px;
+  margin: 0px;
   object-fit: fill;
   position: absolute;
   left: 0;
@@ -100,7 +101,7 @@ main *:after {
 .submain {
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 98vw;
 }
 
 .container {
@@ -274,9 +275,9 @@ footer {
   margin-top: 30px;
 }
 
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 @media (min-width: 1600px) {
 

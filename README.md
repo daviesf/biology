@@ -3,8 +3,7 @@
 #### O site foi feito em conjunto de Samuel Camargo, Nelson Júnior, Nelson Neto e Natália Carvalho.
 
 Link de visualização: https://daviesf.github.io/biology/
-<html>
-		<video autoplay loop muted>
-			<source src="media/intro.mp4" type="video/mp4">
-		</video>
-</html>
+
+<p align="center">
+    <img height="100%" width="100%" src="media/O_Reino_Animal.gif">
+</p>
